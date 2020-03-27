@@ -1,0 +1,89 @@
+-   title: Consulting Engineer
+    company: Tyk Technologies
+    location: Remote (EMEA)
+    period: '2019'
+    duties:
+      - description: Technical leadership and consulting on client calls
+      - description: Participation in every aspect of the product lifecycle
+      - description: Development of authentication plugins (Python)
+      - description: Writing of technical blog entries
+
+-   title: Software Developer
+    company: Ricompro
+    location: Milano, Italy
+    period: '2018'
+    duties:
+      - description: Development of an integration between an E-Commerce front end and ERP back end
+      - description: Design and development of a REST API
+      - description: Analysis of overall system security
+
+-   title: Technical Product Manager
+    company: CRJI
+    location: Bucharest, Romania
+    period: '2017-2018'
+    duties:
+      - description: Organization of regular meetings with the development team and project stakeholders
+      - description: Leadership of the development team
+      - description: Review and triage of issues in GitHub
+      - description: Production of quarterly reports for stakeholders
+      - description: Production of high-level technical documentation
+
+-   title: Freelance Consultant
+    company: Self Employed
+    location: Remote
+    period: '2015-present'
+    duties:
+      - description: Design and implementation of a document management system for an international welding engineering company
+      - description: Design and implementation of a Django-based order management system for high-capacity lifting devices
+      - description: Deployment of multiple static websites using Jekyll
+      - description: Creation of an ansible-based automated system for deployment of new web app projects, including setting up OpenVPN, generating keyfiles &c.
+
+-   title: Academic Director
+    company: Nicomekl Coding
+    location: London,UK
+    period: '2015'
+    duties:
+      - description: Design and delivery of targeted courses in Python, SQL
+
+-   title: Software Design Engineer, Quality
+    company: Avvasi Inc.
+    location: Waterloo, ON
+    period: '2012-2013'
+    duties:
+      - description: Automated and manual testing of video compression appliances for telecommunications
+
+-   title: Software Developer
+    company: MPower Labs Inc.
+    location: Austin, TX
+    period: '2010-2012'
+    duties:
+      - description: Development of mobile payment infrastructure (SMS interactions)
+
+-   title: QA Team Lead
+    company: MPower Labs Inc.
+    location: Austin, TX
+    period: '2010-2012'
+    duties:
+      - description: QA team leadership, API test harness design/development
+
+-   title: Software Design Engineer
+    company: MKS Inc.
+    location: Waterloo, ON
+    period: '2007-2009'
+    duties:
+      - description: On-site deployment leadership at Research In Motion on an $8M+ contract for defect management and associated integrations, performance test harness development.
+
+-   title: DevOps Lead
+    company: Exchange Solutions Inc.
+    location: Toronto, ON
+    period: '2001-2003'
+    duties:
+      - description: Oversight of day-to-day operations for a 10M+ subscriber marketing database, design and implementation of internal security measures
+
+-   title: Software Integration Engineer
+    company: Solect, a division of Amdocs Inc.
+    location: Toronto, ON
+    period: '1999-2001'
+    duties:
+    duties:
+      - description: Design and implementation of a performance test harness for Solect’s IAF Horizon IP billing framework

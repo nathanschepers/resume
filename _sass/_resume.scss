@@ -1,0 +1,74 @@
+// @name Resume
+// @description All resume styles
+
+
+dl {
+    margin-bottom: $spacer;
+    overflow: hidden;
+}
+
+dt, dd { display: inline-block; float: left; margin-top: 20px; }
+dt { clear: both; }
+
+.skills_sublist {
+  margin-bottom: $spacer;
+}
+
+.skills_list, .skills_sublist, .profile_list, .job_descriptions_list {
+    display: block;
+    list-style-type: disc;
+    overflow-wrap: break-word;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.qualification_description {
+    padding-left: 40px;
+}
+
+.company, .school {
+    font-weight: bold;
+}
+
+.period, .location {
+    font-size: 80%;
+}
+
+
+dt, dd {
+    margin-bottom: $spacer;
+}
+
+.job_descriptions {
+    float: right;
+}
+
+.experience, .education {
+    dt {
+        width: 35%;
+        padding-right: ($spacer * 2);
+    }
+    dd {
+        width: 65%;
+        overflow-wrap: break-word;
+    }
+}
+
+
+.title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+a {
+    color: black!important;
+    background: rgba(245, 215, 110, .5);
+    transition: all linear .2s;
+
+    &:hover {
+        background: rgba(245, 215, 110, 1);
+        text-decoration: none;
+    }
+}

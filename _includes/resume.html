@@ -1,0 +1,58 @@
+<h3 class="section-title">Profile</h3>
+<dl class="profile">
+    <ul class="profile_list">
+        {% for profile_item in site.data.profile %}
+            <li>{{ profile_item.description }}</li>
+        {% endfor %}
+    </ul>
+</dl>
+
+<h3 class="section-title">Skills</h3>
+<dl class="skills">
+    <ul class="skills_list">
+        {% for skill in site.data.skills %}
+            <li>{{ skill.name }}
+                {% if skill.examples %}
+                    <ul class="skills_sublist">
+                        {% for example in skill.examples %}
+                            <li>{{ example.description }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</dl>
+
+<h3 class="section-title">Experience</h3>
+<dl class="experience">
+    {% for job in site.data.jobs %}
+        <dt>
+            <p class="title">{{ job.title }}</p>
+            <p class="company">{{ job.company }}</p>
+            <p class="location">{{ job.location }}</p>
+            <p class="period">{{ job.period }}</p>
+        </dt>
+        <dd class="job_descriptions">
+            <ul class="job_descriptions_list">
+                {% for duty in job.duties %}
+                    <li>{{ duty.description }}</li>
+                {% endfor %}
+            </ul>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Education</h3>
+<dl class="education">
+    {% for qualification in site.data.education %}
+        <dt>
+            <p class="title">{{ qualification.qualification }}</p>
+            <p class="school">{{ qualification.school }}</p>
+            <p class="period">{{ qualification.period }}</p>
+        </dt>
+        <dd class="qualification_description">
+            {{ qualification.description }}
+        </dd>
+    {% endfor %}
+</dl>

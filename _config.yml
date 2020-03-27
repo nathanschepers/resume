@@ -1,0 +1,20 @@
+# Jekyll Resume Theme
+
+# Site settings
+title: Nathan Schepers
+email: nathan.schepers@gmail.com
+description: Nathan Schepers - Resume
+baseurl:
+url: "http://nathanschepers.ca/"
+name: Nathan Schepers
+job: software engineer
+location: 
+languages:
+twitter_username:
+github_username:
+codepen_username:
+linkedin_username: nathanschepers
+email_address: nathan.schepers@gmail.com
+
+# Build settings
+markdown: kramdown
