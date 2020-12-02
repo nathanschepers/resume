@@ -72,3 +72,15 @@ a {
         text-decoration: none;
     }
 }
+
+.keep-together {
+    page-break-inside: avoid;
+}
+
+.break-before {
+    page-break-before: always;
+}
+
+.break-after {
+    page-break-after: always;
+}
