@@ -1,3 +1,14 @@
+-   title: Project Lead
+    company: daytrip.travel
+    location: Canary Islands, Spain
+    period: '2020 (ongoing)'
+    duties:
+      - description: Domain research
+      - description: Full stack development (Python, React.js, React Native, Neo4j)
+      - description: DevOps and automation (AWS EC2, S3 with Terraform, Packer)
+      - description: Team and project leadership
+      - description: Business development and evangelism
+
 -   title: Consulting Engineer
     company: Tyk Technologies
     location: Remote (EMEA)
@@ -35,7 +46,6 @@
     duties:
       - description: Design and implementation of a document management system for an international welding engineering company
       - description: Design and implementation of a Django-based order management system for high-capacity lifting devices
-      - description: Deployment of multiple static websites using Jekyll
       - description: Creation of an ansible-based automated system for deployment of new web app projects, including setting up OpenVPN, generating keyfiles &c.
 
 -   title: Academic Director
@@ -64,7 +74,7 @@
     location: Austin, TX
     period: '2010-2012'
     duties:
-      - description: QA team leadership, API test harness design/development
+      - description: QA team leadership, API test harness design/development for a mobile payment company
 
 -   title: Software Design Engineer
     company: MKS Inc.
@@ -84,6 +94,5 @@
     company: Solect, a division of Amdocs Inc.
     location: Toronto, ON
     period: '1999-2001'
-    duties:
     duties:
       - description: Design and implementation of a performance test harness for Solect’s IAF Horizon IP billing framework
