@@ -25,15 +25,15 @@
 </dl>
 
 <h3 class="section-title">Experience</h3>
-<dl class="experience break-after">
+<dl class="experience">
     {% for job in site.data.jobs %}
-        <dt>
+        <dt class="keep-together">
             <p class="title">{{ job.title }}</p>
             <p class="company">{{ job.company }}</p>
             <p class="location">{{ job.location }}</p>
             <p class="period">{{ job.period }}</p>
         </dt>
-        <dd class="job_descriptions">
+        <dd class="job_descriptions keep-together">
             <ul class="job_descriptions_list">
                 {% for duty in job.duties %}
                     <li>{{ duty.description }}</li>
