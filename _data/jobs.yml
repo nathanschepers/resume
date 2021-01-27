@@ -1,7 +1,7 @@
 -   title: Project Lead
     company: daytrip.travel
     location: Canary Islands, Spain
-    period: '2020 (ongoing)'
+    period: 'February 2020 - present'
     duties:
       - description: Domain research
       - description: Full stack development (Python, React.js, React Native, Neo4j)
@@ -12,7 +12,7 @@
 -   title: Consulting Engineer
     company: Tyk Technologies
     location: Remote (EMEA)
-    period: '2019'
+    period: 'February-August 2019'
     duties:
       - description: Technical leadership and consulting on client calls
       - description: Participation in every aspect of the product lifecycle
@@ -22,7 +22,7 @@
 -   title: Software Developer
     company: Ricompro
     location: Milano, Italy
-    period: '2018'
+    period: 'April-June 2018'
     duties:
       - description: Development of an integration between an E-Commerce front end and ERP back end
       - description: Design and development of a REST API
@@ -31,7 +31,7 @@
 -   title: Technical Product Manager
     company: CRJI
     location: Bucharest, Romania
-    period: '2017-2018'
+    period: 'March 2017 - March 2018'
     duties:
       - description: Organization of regular meetings with the development team and project stakeholders
       - description: Leadership of the development team
@@ -42,7 +42,7 @@
 -   title: Freelance Consultant
     company: Self Employed
     location: Remote
-    period: '2015-present'
+    period: '2015 - present'
     duties:
       - description: Design and implementation of a document management system for an international welding engineering company
       - description: Design and implementation of a Django-based order management system for high-capacity lifting devices
@@ -51,7 +51,7 @@
 -   title: Academic Director
     company: Nicomekl Coding
     location: London,UK
-    period: '2015'
+    period: 'January-June 2015'
     duties:
       - description: Design and delivery of targeted courses in Python, SQL
 
