@@ -23,3 +23,6 @@ cd _site/
 aws s3 rm s3://$1 --recursive
 aws s3 cp --recursive . s3://$1 --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
 
+for id in $(aws cloudfront list-distributions --query "DistributionList.Items[*].{id:Id,origin:Origins.Items[0].Id}[?origin=='S3-$1'].id" --output text);
+  do aws cloudfront create-invalidation --distribution-id $id --paths "/*";
+done;

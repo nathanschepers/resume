@@ -1,14 +1,4 @@
--   name: 5+ years in software engineering leadership
-    examples:
-      - description: Planned and managed an $8M deployment/integration project at a major telecommunications company
-      - description: Provided technical product and team leadership on a €500K Google grant project
-      - description: Provided technical leadership to teams of quality assurance analysts, deployment engineers, and software developers
-      - description: Provided team and technical leadership to distributed teams with members around the world
-      - description: Consulted with small businesses/startups on operational and technical problems, provided training and mentoring to junior developers
-      - description: Built a development, product, and design team on a greenfield project in the public transit/tourism sector.
-
-
--   name: 15+ years in software engineering and systems administration
+-   name: 17+ years in software engineering and systems administration
     examples:
       - description: Python/JavaScript/Perl
       - description: Go/Java/C/C++
@@ -23,3 +13,14 @@
       - description: DevOps and automation (Ansible, Terraform, GitHub Actions)
       - description: Linux/BSD systems administration
       - description: Network administration
+
+-   name: Career highlights
+    examples:
+      - description: Planned and managed an $8M deployment/integration project at a major telecommunications company
+      - description: Provided technical product and team leadership on a €500K Google grant project
+      - description: Provided technical leadership to teams of quality assurance analysts, deployment engineers, and software developers
+      - description: Provided team and technical leadership to distributed teams with members around the world
+      - description: Consulted with small businesses/startups on operational and technical problems, provided training and mentoring to junior developers
+      - description: Built a development, product, and design team on a greenfield project in the public transit/tourism sector.
+
+
