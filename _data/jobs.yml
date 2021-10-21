@@ -1,6 +1,15 @@
+-   title: Mobile Development Lead (Open Source)
+    company: couchers.org
+    location: Remote
+    period: 'September 2021 - present'
+    duties:
+      - description: Coordination and mentoring of volunteer developers
+      - description: Initial setup of mobile development repository (React Native/Expo/GitLab CI)
+      - description: Coordination with project maintainers on overall goals and organizational challenges
+
 -   title: Senior Dev/Team Lead
-    company: TCL
-    location: Reading, UK
+    company: Contractor (for Neos Networks)
+    location: Remote (EMEA)
     period: 'February-Oct 2021'
     duties:
       - description: Team leadership/client liason activities
