@@ -1,7 +1,5 @@
 #!/bin/bash
 
-today=`date '+%Y%m%d'`
-
 cd ..
 bundle exec jekyll clean
 bundle exec jekyll build
@@ -10,7 +8,7 @@ bundle exec jekyll serve &
 serve_pid=$!
 
 sleep 2
-wkhtmltopdf --image-dpi 300 -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 ./_site/resume-$today.pdf
+wkhtmltopdf --image-dpi 300 -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 ./_site/resume.pdf
 
 kill -2 $serve_pid
 

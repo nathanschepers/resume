@@ -1,7 +1,27 @@
+-   title: Principal Engineer
+    company: Amadeus Global Sl.
+    location: Remote (EMEA)
+    period: 'June 2022 - present'
+    duties:
+      - description: Engineering leadership on a global-scale health and identity infrastructure project
+      - description: Coordination with stakeholders on overall goals, challenges, and opportunities
+      - description: Research and reporting on best practices in migration of backend systems to MS Azure
+      - description: Research projects on natural language processing tools and machine learning algorithms.
+      - description: Preparation and delivery of talks and training materials
+      - description: Mentoring and advising on software engineering best practices
+
+-   title: Consultant
+    company: Accenture (for Amadeus Global Sl.)
+    location: Remote (EMEA)
+    period: 'January-March 2022'
+    duties:
+      - description: Engineering leadership on a global-scale health infrastructure project
+      - description: Coordination and communicaiton with multiple stakeholders in an environment with changing requirements
+
 -   title: Mobile Development Lead (Open Source)
     company: couchers.org
     location: Remote
-    period: 'September 2021 - present'
+    period: 'September 2021 - Jan 2022'
     duties:
       - description: Coordination and mentoring of volunteer developers
       - description: Initial setup of mobile development repository (React Native/Expo/GitLab CI)
@@ -10,7 +30,7 @@
 -   title: Senior Dev/Team Lead
     company: Contractor (for Neos Networks)
     location: Remote (EMEA)
-    period: 'February-Oct 2021'
+    period: 'February-October 2021'
     duties:
       - description: Team leadership/client liason activities
       - description: Mentoring and training of junior developers
@@ -20,7 +40,7 @@
 -   title: Project Lead
     company: daytrip.travel
     location: Canary Islands, Spain
-    period: 'February 2020 - present'
+    period: 'February 2020 - Dec 2023'
     duties:
       - description: Domain research
       - description: Full stack development (Python, React.js, React Native, Neo4j)
@@ -61,7 +81,7 @@
 -   title: Freelance Consultant
     company: Self Employed
     location: Remote
-    period: '2015 - present'
+    period: '2015-2022'
     duties:
       - description: Design and implementation of a document management system for an international welding engineering company
       - description: Design and implementation of a Django-based order management system for high-capacity lifting devices
