@@ -4,16 +4,9 @@
 title: Nathan Schepers
 email: nathan.schepers@protonmail.com
 description: Nathan Schepers - Resume
-baseurl:
 url: "https://nathanschepers.ca/"
 name: Nathan Schepers
-job: software engineer
 location: Granada, Spain (CET/CEST)
-languages:
-twitter_username:
-github_username: nathanschepers
-codepen_username:
-linkedin_username: nathanschepers
 email_address: nathan.schepers@protonmail.com
 
 # Build settings

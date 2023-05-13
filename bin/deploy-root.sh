@@ -17,7 +17,7 @@ bundle exec jekyll serve -d "${STAGE_DIR}" >/dev/null &
 SERVE_PID=$!
 sleep 2
 
-coloredEcho "Generating PDF." blue
+coloredEcho "Generating PDFs." blue
 wkhtmltopdf -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 "${STAGE_DIR}/resume.pdf" >/dev/null 2>&1
 
 kill -2 ${SERVE_PID}
@@ -39,11 +39,10 @@ az storage blob upload-batch \
   --source "${STAGE_DIR}" \
   --tier Cool > /dev/null
 
-coloredEcho "Purging the AFD endpoint cache. (${RESUME_AFD_ENDPOINT_NAME}/${SITE_PATH}/*)" blue
+coloredEcho "Purging the AFD endpoint cache. (${RESUME_AFD_ENDPOINT_NAME}/)" blue
 az afd endpoint purge \
   --content-paths "/*" \
   --domain ${RESUME_AFD_DOMAIN} \
   --resource-group ${RESUME_AFD_RESOURCE_GROUP} \
   --endpoint-name ${RESUME_AFD_ENDPOINT_NAME} \
-  --profile-name ${RESUME_AFD_PROFILE_NAME} \
-  --no-wait
+  --profile-name ${RESUME_AFD_PROFILE_NAME}
