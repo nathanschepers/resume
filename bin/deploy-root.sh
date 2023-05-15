@@ -25,13 +25,13 @@ kill -2 ${SERVE_PID}
 convert -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"
 
 # copy to Azure
-coloredEcho "Removing old resume. (${RESUME_AFD_DOMAIN}/${SITE_PATH})" blue
+coloredEcho "Removing old resume. (${RESUME_AFD_DOMAIN})" blue
 az storage blob delete-batch \
   --connection-string "${AZURE_STORAGE_CONNECTION_STRING}" \
   --source "${RESUME_STORAGE_CONTAINER}" \
   --pattern "*" \
 
-coloredEcho "Copying to storage. (${RESUME_AFD_DOMAIN}/${SITE_PATH})" blue
+coloredEcho "Copying to storage. (${RESUME_AFD_DOMAIN})" blue
 az storage blob upload-batch \
   --connection-string "${AZURE_STORAGE_CONNECTION_STRING}" \
   --destination "${RESUME_STORAGE_CONTAINER}" \
