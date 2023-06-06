@@ -18,11 +18,11 @@ SERVE_PID=$!
 sleep 2
 
 coloredEcho "Generating PDFs." blue
-wkhtmltopdf -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 "${STAGE_DIR}/resume.pdf" >/dev/null 2>&1
+wkhtmltopdf -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 "${STAGE_DIR}/resume.pdf"
 
 kill -2 ${SERVE_PID}
 
-convert -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"
+"${RESUME_PROJECT_ROOT}"/bin/magick -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"
 
 # copy to Azure
 coloredEcho "Removing old resume. (${RESUME_AFD_DOMAIN})" blue
