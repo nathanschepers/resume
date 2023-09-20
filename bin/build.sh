@@ -2,6 +2,7 @@ SRC_DIR=${GITHUB_WORKSPACE}/src
 BIN_DIR=${GITHUB_WORKSPACE}/bin
 STAGE_DIR=${GITHUB_WORKSPACE}/stage
 
+TERM=dumb
 
 # import helpers
 . "${BIN_DIR}"/helpers.sh
@@ -15,6 +16,6 @@ SERVE_PID=$!
 sleep 2
 
 coloredEcho "Generating PDFs." blue
-"${BIN_DIR}"/wkhtmltopdf -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 "${STAGE_DIR}/resume.pdf"
+wkhtmltopdf -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 "${STAGE_DIR}/resume.pdf"
 
 kill -2 ${SERVE_PID}

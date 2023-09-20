@@ -26,6 +26,9 @@ jobs:
         uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
         with:
           ruby-version: '2.7'
+      - name: Install wkhtmltopdf
+        run: |
+          sudo apt-get install wkhtmltopdf
       - name: Build
         run: |
           chmod +x ./bin/build.sh
