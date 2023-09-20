@@ -33,10 +33,10 @@ jobs:
         run: |
           chmod +x ./bin/build.sh
           ./bin/build.sh
-      - name: List files in the staging dir
-        run: |
-          ls ${{ github.workspace }}/stage/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: "stage/"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
