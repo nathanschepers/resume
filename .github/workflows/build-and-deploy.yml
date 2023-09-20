@@ -28,7 +28,7 @@ jobs:
           ruby-version: '2.7'
       - name: Install system deps
         run: |
-          sudo apt-get install wkhtmltopdf
+          sudo apt-get install wkhtmltopdf ghostscript
       - name: Build
         run: |
           chmod +x ./bin/build.sh
