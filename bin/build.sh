@@ -1,5 +1,8 @@
-SRC_DIR=${{ github.workspace }}/src
-STAGE_DIR=${{ github.workspace }}/stage
+SRC_DIR=${GITHUB_WORKSPACE}/src
+STAGE_DIR=${GITHUB_WORKSPACE}/stage
+
+# import helpers
+. ./helpers.sh
 
 cd "${SRC_DIR}"
 coloredEcho "Building static site." blue
