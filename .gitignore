@@ -3,5 +3,11 @@ _site
 .jekyll-metadata
 .jekyll-cache/
 .idea
+
 stage/
-env.sh
+
+env.azure.sh
+env.domain-dns.sh
+
+lftp
+deploy-domain-dns.sh

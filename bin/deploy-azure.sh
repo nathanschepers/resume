@@ -4,7 +4,7 @@
 . ./helpers.sh
 
 # import the environment
-. ./env.sh
+. env.azure.sh
 
 SRC_DIR=${RESUME_PROJECT_ROOT}/src
 STAGE_DIR=${RESUME_PROJECT_ROOT}/stage
