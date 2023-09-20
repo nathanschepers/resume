@@ -36,3 +36,7 @@ jobs:
       - name: List files in the staging dir
         run: |
           ls ${{ github.workspace }}/stage/
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: "stage/"
