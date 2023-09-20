@@ -15,10 +15,11 @@ bundle exec jekyll serve -d "${STAGE_DIR}" >/dev/null &
 SERVE_PID=$!
 sleep 2
 
-coloredEcho "Generating PDFs." blue
+coloredEcho "Generating PDF." blue
 wkhtmltopdf -L 0mm -R 0mm --javascript-delay 2000 http://localhost:4000 "${STAGE_DIR}/resume.pdf"
 
 kill -2 ${SERVE_PID}
 
+coloredEcho "Making small PDF." blue
 chmod +x "${BIN_DIR}"/magick
-"${BIN_DIR}"/magick -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"
+"${BIN_DIR}"/magick --appimage-extract -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"
