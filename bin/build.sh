@@ -22,4 +22,5 @@ kill -2 ${SERVE_PID}
 
 coloredEcho "Making small PDF." blue
 chmod +x "${BIN_DIR}"/magick
-"${BIN_DIR}"/magick --appimage-extract -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"
+"${BIN_DIR}"/magick --appimage-extract
+squashfs-root/AppRun -density 125 -quality 75 "${STAGE_DIR}/resume.pdf" "${STAGE_DIR}/resume-small.pdf"

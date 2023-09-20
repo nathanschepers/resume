@@ -5,6 +5,7 @@ _site
 .idea
 
 stage/
+squashfs-root/
 
 env.azure.sh
 env.domain-dns.sh
