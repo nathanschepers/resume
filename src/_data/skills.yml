@@ -1,10 +1,9 @@
 -   name: Career highlights
     examples:
       - description: Planned and executed an $8M deployment/integration project at a Canadian telecommunications company
+      - description: Provided engineering and architectural leadership aon global-scale analytics and travel infrastructure projects
       - description: Provided technical product and team leadership on a €500K Google grant project
-      - description: Provided technical leadership and facilitated stakeholder communication on a global-scale electricity meter analytics project
-      - description: Provided technical leadership and facilitated stakeholder communication on a global-scale travel infrastructure project
-      - description: Provided technical leadership to teams of quality assurance analysts and software developers
+      - description: Led teams of quality assurance analysts and software developers
       - description: Provided team and technical leadership to distributed teams with members around the world
       - description: Consulted with small businesses/startups on operational and technical problems, provided training and mentoring to junior developers
       - description: Built a development, product, and design team on a greenfield project in the public transit/tourism sector.
