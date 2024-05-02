@@ -1,3 +1,16 @@
+-   title: Senior Software Architect
+    company: Landis & Gyr
+    location: Remote (EMEA)
+    period: 'Oct 2023 - May 2024'
+    duties:
+      - description: Engineering leadership on a global-scale electricity metering analytics project
+      - description: Leadership of a team of enabling technologists (CI/CD, Kubernetes, GCP cloud experts)
+      - description: Design and implementation of CI/CD processes to support multi-region deployments
+      - description: Design and implementation of Python packages supporting integration to 3rd party systems
+      - description: Design of cloud-native software components
+      - description: Organization and presentation of on-site workshops in multiple countries, evangelizing best practices
+      - description: Stakeholder communication and coordination
+
 -   title: Principal Software Engineer
     company: Amadeus Global Sl.
     location: Remote (EMEA)

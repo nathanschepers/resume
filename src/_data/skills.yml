@@ -2,6 +2,7 @@
     examples:
       - description: Planned and executed an $8M deployment/integration project at a Canadian telecommunications company
       - description: Provided technical product and team leadership on a €500K Google grant project
+      - description: Provided technical leadership and facilitated stakeholder communication on a global-scale electricity meter analytics project
       - description: Provided technical leadership and facilitated stakeholder communication on a global-scale travel infrastructure project
       - description: Provided technical leadership to teams of quality assurance analysts and software developers
       - description: Provided team and technical leadership to distributed teams with members around the world
@@ -11,17 +12,19 @@
 -   name: ~20 years in software engineering
     examples:
       - description: Python
-      - description: JavaScript
+      - description: Celery
+      - description: JavaScript (React, React-Native)
       - description: Go/Java/C/C++
       - description: REST API design and implementation
       - description: SQL, Cypher
       - description: Data modelling
       - description: PostgreSQL, MySQL, Oracle, other RDBMSs
-      - description: Redis, Neo4j, other NoSQL databases
+      - description: Redis, Neo4j, MongoDB
       - description: CI/CD (git, Jenkins, Travis-CI, GitLab CI/CD)
       - description: Virtualization/Containerization (Virtualbox, VMWare, Vagrant, Docker, Docker Swarm, Portainer)
-      - description: Cloud computing (Amazon AWS, MS Azure)
-      - description: DevOps and automation (Ansible, Terraform, GitHub Actions)
+      - description: Cloud-native microservice architectures
+      - description: Cloud computing (Amazon AWS, MS Azure, Google Cloud)
+      - description: DevOps, automation (Ansible, Terraform, GitHub Actions)
       - description: Linux/BSD systems administration
       - description: Network administration
 
