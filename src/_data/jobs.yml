@@ -17,13 +17,8 @@
     location: Remote (EMEA)
     period: 'Oct 2023 - May 2024'
     duties:
-      - description: Engineering leadership on a global-scale electricity metering analytics project
+      - description: Engineering leadership on a global-scale electricity metering analytics project, including on-site workshops across multiple countries
       - description: Leadership of a team of enabling technologists (CI/CD, Kubernetes, GCP cloud experts)
-      - description: Design and implementation of CI/CD processes to support multi-region deployments
-      - description: Design and implementation of Python packages supporting integration to 3rd party systems
-      - description: Design of cloud-native software components
-      - description: Organization and presentation of on-site workshops in multiple countries, evangelizing best practices
-      - description: Stakeholder communication and coordination
 
 -   title: Principal Software Engineer
     company: Amadeus Global Sl.
@@ -31,11 +26,9 @@
     period: 'June 2022 - August 2023'
     duties:
       - description: Principal engineer on global COVID credential verification system; data minimization and PII controls across all design decisions
-      - description: Coordination with stakeholders on overall goals, challenges, and opportunities
+      - description: Delivery of talks and training materials
       - description: Research and reporting on best practices in migration of backend systems to MS Azure
       - description: Research projects on natural language processing tools and machine learning algorithms.
-      - description: Preparation and delivery of talks and training materials
-      - description: Mentoring and advising on software engineering best practices
 
 -   title: Consultant
     company: Accenture (for Amadeus Global Sl.)
@@ -59,9 +52,7 @@
     location: Remote (EMEA)
     period: 'February-October 2021'
     duties:
-      - description: Team leadership/client liason activities
-      - description: Mentoring and training of junior developers
-      - description: Sprint planning and organization
+      - description: Client liaison and developer coordination
       - description: Software development (Python, Postgres, Serverless, AWS Lambda)
 
 -   title: Project Lead
@@ -69,11 +60,10 @@
     location: Canary Islands, Spain
     period: 'February 2020 - Dec 2023'
     duties:
-      - description: Domain research
-      - description: Full stack development (Python, React.js, React Native, Neo4j)
-      - description: DevOps and automation (AWS EC2, S3 with Terraform, Packer)
-      - description: Team and project leadership
-      - description: Business development and evangelism
+      - description: Built a graph database data pipeline for discovering day trips via public transit networks (Python, Neo4j)
+      - description: Full stack development (Python, React.js, React Native)
+      - description: Infrastructure and automation (AWS EC2, S3, Terraform, Packer)
+      - description: Business development and engagement with local transit operators
 
 -   title: Consulting Engineer
     company: Tyk Technologies
@@ -81,29 +71,25 @@
     period: 'February-August 2019'
     duties:
       - description: Technical leadership and client consulting
-      - description: Participation in every aspect of the product lifecycle
       - description: Development of authentication plugins (Python)
-      - description: Writing of technical blog entries
+      - description: Technical blog writing
 
 -   title: Software Developer
     company: Ricompro
     location: Milano, Italy
     period: 'April-June 2018'
     duties:
-      - description: Development of an integration between an E-Commerce front end and ERP back end
-      - description: Design and development of a REST API
-      - description: Analysis of overall system security
+      - description: Integrated an e-commerce front end with an ERP back end
+      - description: Security analysis and recommendations
 
 -   title: Technical Product Manager
     company: CRJI
     location: Bucharest, Romania
     period: 'March 2017 - March 2018'
     duties:
-      - description: Organization of regular meetings with the development team and project stakeholders
-      - description: Leadership of the development team
-      - description: Review and triage of issues in GitHub
-      - description: Production of quarterly reports for stakeholders
-      - description: Production of high-level technical documentation
+      - description: 'Day-to-day technical leadership of the development team on a EUR 500K Google-funded grant: guiding developer work, hiring front-end developers, organizing and running UI/UX sessions'
+      - description: Liaison between development team and project management (grant holders)
+      - description: Quarterly milestone reporting to stakeholders
 
 -   title: Freelance Consultant
     company: Self Employed
@@ -161,4 +147,4 @@
     location: Toronto, ON
     period: '1999-2001'
     duties:
-      - description: Design and implementation of a performance test harness for Solect’s IAF Horizon IP billing framework
+      - description: 'Performance testing of Solect''s IAF Horizon IP billing framework, including travel to HP headquarters to oversee testing on an unreleased midframe in preparation for a press release'
