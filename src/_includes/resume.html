@@ -7,19 +7,11 @@
     </ul>
 </dl>
 
-<h3 class="section-title">Skills</h3>
+<h3 class="section-title">Career Highlights</h3>
 <dl class="skills break-after">
     <ul class="skills_list">
-        {% for skill in site.data.skills %}
-            <li>{{ skill.name }}
-                {% if skill.examples %}
-                    <ul class="skills_sublist">
-                        {% for example in skill.examples %}
-                            <li>{{ example.description }}</li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-            </li>
+        {% for item in site.data.skills %}
+            <li>{{ item.description }}</li>
         {% endfor %}
     </ul>
 </dl>
