@@ -10,7 +10,7 @@
     location: Helsinki, FI
     period: 'Oct 2024 - Mar 2025'
     duties:
-      - description: Architected and built a HIPAA/GDPR-compliant nurse notification system on air-gapped hospital networks. Sole technical owner: system architecture, device identity management, iOS and Android clients.
+      - description: 'Architected and built a HIPAA/GDPR-compliant nurse notification system on air-gapped hospital networks. Sole technical owner: system architecture, device identity management, iOS and Android clients.'
 
 -   title: Senior Software Architect
     company: Landis & Gyr
