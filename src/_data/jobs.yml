@@ -17,8 +17,8 @@
     location: Remote (EMEA)
     period: 'Oct 2023 - May 2024'
     duties:
-      - description: Engineering leadership on a global-scale electricity metering analytics project, including on-site workshops across multiple countries
-      - description: Leadership of a team of enabling technologists (CI/CD, Kubernetes, GCP cloud experts)
+      - description: Led engineering on a global-scale electricity metering analytics project, including on-site workshops across multiple countries
+      - description: Led the platform engineering team (CI/CD, Kubernetes, GCP)
 
 -   title: Principal Software Engineer
     company: Amadeus Global Sl.
@@ -26,7 +26,7 @@
     period: 'June 2022 - August 2023'
     duties:
       - description: Principal engineer on global COVID credential verification system; data minimization and PII controls across all design decisions
-      - description: Delivery of talks and training materials
+      - description: Delivered talks and training materials
       - description: Research and reporting on best practices in migration of backend systems to MS Azure
       - description: Research projects on natural language processing tools and machine learning algorithms.
 
@@ -36,23 +36,21 @@
     period: 'January-March 2022'
     duties:
       - description: Engineering leadership on a global-scale health infrastructure project
-      - description: Coordination and communication with multiple stakeholders in an environment with changing requirements
 
 -   title: Mobile Development Lead (Open Source)
     company: couchers.org
     location: Remote
     period: 'September 2021 - Jan 2022'
     duties:
-      - description: Coordination and mentoring of volunteer developers
+      - description: Mentored and directed volunteer developers
       - description: Initial setup of mobile development repository (React Native/Expo/GitLab CI)
-      - description: Coordination with project maintainers on overall goals and organizational challenges
 
 -   title: Senior Dev/Team Lead
     company: Contractor (for Neos Networks)
     location: Remote (EMEA)
     period: 'February-October 2021'
     duties:
-      - description: Client liaison and developer coordination
+      - description: Managed client relationship and development team
       - description: Software development (Python, Postgres, Serverless, AWS Lambda)
 
 -   title: Project Lead
@@ -72,7 +70,7 @@
     duties:
       - description: Technical leadership and client consulting
       - description: Development of authentication plugins (Python)
-      - description: Technical blog writing
+      - description: Published technical posts on the Tyk engineering blog
 
 -   title: Software Developer
     company: Ricompro
@@ -88,8 +86,8 @@
     period: 'March 2017 - March 2018'
     duties:
       - description: 'Day-to-day technical leadership of the development team on a EUR 500K Google-funded grant: guiding developer work, hiring front-end developers, organizing and running UI/UX sessions'
-      - description: Liaison between development team and project management (grant holders)
-      - description: Quarterly milestone reporting to stakeholders
+      - description: Translated grant requirements into engineering priorities; reported directly to grant holders
+      - description: Delivered quarterly milestone reports to Google
 
 -   title: Freelance Consultant
     company: Self Employed
@@ -119,14 +117,14 @@
     location: Austin, TX
     period: '2010-2012'
     duties:
-      - description: Development of mobile payment infrastructure (SMS interactions)
+      - description: Built SMS-based mobile payment infrastructure
 
 -   title: QA Team Lead
     company: MPower Labs Inc.
     location: Austin, TX
     period: '2010-2012'
     duties:
-      - description: QA team leadership, API test harness design/development for a mobile payment company
+      - description: Led QA team; designed and built API test harness
 
 -   title: Software Design Engineer
     company: MKS Inc.
@@ -140,7 +138,7 @@
     location: Toronto, ON
     period: '2001-2003'
     duties:
-      - description: Oversight of day-to-day operations for a 10M+ subscriber marketing database, design and implementation of internal security measures
+      - description: Operated a 10M+ subscriber marketing database; implemented internal security measures
 
 -   title: Software Integration Engineer
     company: Solect, a division of Amdocs Inc.
