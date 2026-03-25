@@ -1,16 +1,16 @@
 -   title: Algorithmic Accountability Reporting Fellow
     company: AlgorithmWatch
     location: Remote (EMEA)
-    period: 'Oct 2024 - Present'
+    period: 'Oct 2024 - Apr 2025'
     duties:
-      - description: Technical consulting, research, and reporting on working conditions and other workers issues in the EU AI supply chain.
+      - description: Published investigative reporting with Michael Bird on working conditions in the AI supply chain and KYC fraud in the gig economy.
 
--   title: Software Engineer
+-   title: Systems Architect
     company: Verso Vision
     location: Helsinki, FI
-    period: 'Oct 2024 - Present'
+    period: 'Oct 2024 - Mar 2025'
     duties:
-      - description: Full-stack development of a nurse call application.
+      - description: Architected and built a HIPAA/GDPR-compliant nurse notification system on air-gapped hospital networks. Sole technical owner: system architecture, device identity management, iOS and Android clients.
 
 -   title: Senior Software Architect
     company: Landis & Gyr
@@ -30,7 +30,7 @@
     location: Remote (EMEA)
     period: 'June 2022 - August 2023'
     duties:
-      - description: Engineering leadership on a global-scale health and identity infrastructure project
+      - description: Principal engineer on global COVID credential verification system; data minimization and PII controls across all design decisions
       - description: Coordination with stakeholders on overall goals, challenges, and opportunities
       - description: Research and reporting on best practices in migration of backend systems to MS Azure
       - description: Research projects on natural language processing tools and machine learning algorithms.
@@ -43,7 +43,7 @@
     period: 'January-March 2022'
     duties:
       - description: Engineering leadership on a global-scale health infrastructure project
-      - description: Coordination and communicaiton with multiple stakeholders in an environment with changing requirements
+      - description: Coordination and communication with multiple stakeholders in an environment with changing requirements
 
 -   title: Mobile Development Lead (Open Source)
     company: couchers.org
