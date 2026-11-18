@@ -1,15 +1,13 @@
-name: build-and-deploy
+name: deploy
 
-# nathanschepers.ca redirects to pipe23.org. This workflow deploys the two pages in
-# redirect/. The résumé source in src/ and its build script in bin/ are kept. The tag
-# resume-2026-11-18 has the workflow that builds and deploys the résumé.
+# Deploys the pages in redirect/ to GitHub Pages. nathanschepers.ca serves them.
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
