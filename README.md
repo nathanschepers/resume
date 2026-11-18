@@ -1,3 +1,5 @@
+nathanschepers.ca redirects to [pipe23.org](https://pipe23.org/) since 2026-11-18. The résumé source is in `src/`. The tag `resume-2026-11-18` is the last state that built and deployed it.
+
 # Resume
 
 Custom Jekyll theme for my resume.

@@ -1,18 +1,11 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# GitHub recommends pinning actions to a commit SHA.
-# To get a newer version, you will need to update the SHA.
-# You can also reference a tag or branch, but the action may change without warning.
-
 name: build-and-deploy
+
+# nathanschepers.ca redirects to pipe23.org. This workflow deploys the two pages in
+# redirect/. The résumé source in src/ and its build script in bin/ are kept. The tag
+# resume-2026-11-18 has the workflow that builds and deploys the résumé.
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
     branches: [ master ]
 
 jobs:
@@ -24,22 +17,10 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408
-        with:
-          ruby-version: '2.7'
-      - name: Install system deps
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wkhtmltopdf ghostscript
-      - name: Build
-        run: |
-          chmod +x ./bin/build.sh
-          ./bin/build.sh
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "stage/"
+          path: "redirect/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
